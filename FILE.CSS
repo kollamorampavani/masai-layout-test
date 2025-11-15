@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav div{
+    display: flex;
+    gap: 20px;
+}
+nav button{
+    background: #ff4f4f;
+    border: none;
+    padding: 8px 20px;
+    color: white;
+}
+#top{
+    display: grid;
+    grid-template-columns: repeat(3,lfr);
+    gap: 25px;
+    margin:40px;
+}
+.card{
+    background: white;
+    padding: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.card img{
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+#mid{
+    display: grid;
+    grid-template-columns: repeat(5,lfr);
+    gap: 20px;
+    margin: 40px;
+}
+.mcard{
+    text-align: center;
+    padding: 10px;
+}
+.mcard.img{
+    width:50px;
+    margin-bottom: 10px;
+
+}
